@@ -1,0 +1,81 @@
+﻿Assignment
+     Operator , Array , String in Java
+Q 1. List the  operators in java.
+Ans: 1.Arithmetic Operator:
+           Add : x+y
+          Subtract: x-y
+          Multiply: x*y
+          Divide: x/y
+           Modulus:x%y
+       2.Assignment Operator
+        It is used to assign value to variable.
+           x=10
+           x+=5 ->x=x+5
+       3.Relational Operator
+         >,<,>=,<=,==
+      4.Logical Operator
+       &&,||,!
+        5.Bitwise Operator
+          &,|
+Q.2 Explain about increment and decrement with example.
+Ans : Increment and decrement operations are used to increase and decrease value by one.
+Denoted by: ++(increment)    - - (decrement)
+Example:
+  int a=10;
+  a++ -> 11  //a=a+1
+  a- -  → 10  //a=a-1
+Q.3 What are conditional operator in java?
+Ans:Conditional operator is used to check condition and decide the result on given condition.
+Conditional And=&&
+Conditional Or=||
+Ternary=?:
+int x=5, y=4, z=7;  
+System.out.println(x>y && x>z || y<z);  //true
+System.out.println((x<z || y>z) && x<y);  //false
+Q. 4 What are the type of operator based on number of operand?
+Ans : Two types operator
+1. Binary operator : Two operand (+,-,*,/)
+2. Unary Operator: One Operand(++,--)
+Q 5.What are conditional statement and its use in java?
+Ans: In java, a conditional statement is a programming construct that allows you to execute different blocks of code based on certain condition.
+The most common types of conditional statement in java are if,else if,else.
+Int a=10;
+if(a>20){
+     System.out.println(a);
+}
+Q.6 What is the syntax of if else statement?
+Ans:   Syntax:
+      if(condition){
+           //if true  execute this block
+}
+else{
+   //If false execute this block
+}
+Example:
+Int a=20;
+if(a>10){
+ System.out.println(“hello”);
+}
+else{
+    System.out.println(“hello”);
+}
+Q.7 What are the three types of iterative statement in java?
+Ans: The three iterative statement in java are:
+1.  For loop
+2. While loop
+3. Do while loop
+Q 8. What do you mean by array?
+Ans:  Array is a collection of elements of single data type , stored in continuous memory location.
+Q 9. How to create array?
+Ans:  Creation of Array
+        Data_type  [ ] array_name=new data_type[size]
+Int [ ] arr=new int[3]
+It is array of size 3;
+   or
+Int [ ] arr={1,3,4,6}
+   or
+Int  [ ]a;
+a=new int[5];
+Q.10 Difference between StringBuffer and StringBuilder in java?
+Ans : StringBuffer is thread safe,it is synchronized, and multiple threads can safely use it concurrently without causing any issue related to data consistency.
+StringBuilder is not thread safe , it is not synchronized so, if multiple threads access concurrently its contents,it can lead to data corruption.
